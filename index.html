@@ -161,21 +161,24 @@
 			<hr>
 
 			<div class="row">
-				<div  class="column" id="btn_info" >
-					<button type="button" id="btn_hide" onclick="showDescriptbtn()" description class="btn btn-primary">aceptar</button>
+				<div class="column" id="btn_info">
+					<button name="button_acept" type="button" id="btn_hide" onclick="showDescriptbtn()" description
+						class="btn btn-primary">aceptar</button>
 					<p id="descript" style="display: none;">Boton para aceptar </p>
 				</div>
 				<div class="column" ">
-					<img src="files/work.png" class="img-fluid border border-5" onclick="showDescriptImg()" alt="Imagen avatar"
-					width="250">
+					<img name=" imagen_muestra" src="files/work.png" class="img-fluid border border-5" onclick="showDescriptImg()"
+					alt="Imagen avatar" width="250">
 					<p id="descripImg" style="display: none;">Una imagen de referencia</p>
 				</div>
-				<div class="column" >
-					<input type="text" class="form-control" aria-label="Username" onclick="showDescriptInput()" aria-describedby="basic-addon1">
+				<div class="column">
+					<input name="Campo_texto" type="text" class="form-control" aria-label="Username"
+						onclick="showDescriptInput()" aria-describedby="basic-addon1">
 					<p id="descripInput" style="display: none;">Campo de texto para poder escribir un comentario</p>
 				</div>
-				<div class="column" >
-					<a href="https://github.com/daniFlakk/Porfolio" onclick="showDescriptLink()" target="blank">github proyecto</a>
+				<div class="column">
+					<a name="link_gitHub" href="https://github.com/daniFlakk/Porfolio" onclick="showDescriptLink()"
+						target="blank">github proyecto</a>
 					<p id="descripLink" style="display: none;">Link que redirige a la pagina de gitHub del proyecto</p>
 				</div>
 			</div>
