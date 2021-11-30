@@ -17,3 +17,12 @@ form1.addEventListener("submit", function (event) {
     document.getElementById("textchange").textContent = nameValue + " " + Lastname + " " + email + " " + phone + " " + address + " " + city + " "
         + born + " " + height + " " + bio + " " + password;
 });
+
+function showDescriptbtn() {
+    var x = document.getElementById("descript");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}

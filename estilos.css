@@ -62,3 +62,19 @@ p{
 	/* color: #2E4053; */
 	font-style: bold;
 }
+
+.column {
+	float: left;
+	width: 25%;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+
+  .btn_info{
+	height:100px;
+    width:150px;
+  }
