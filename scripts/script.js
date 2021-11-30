@@ -26,3 +26,30 @@ function showDescriptbtn() {
         x.style.display = "none";
     }
 }
+
+function showDescriptImg() {
+    var x = document.getElementById("descripImg");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function showDescriptInput() {
+    var x = document.getElementById("descripInput");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function showDescriptLink() {
+    var x = document.getElementById("descripLink");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}

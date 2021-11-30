@@ -78,3 +78,7 @@ p{
 	height:100px;
     width:150px;
   }
+
+  .descript{
+	  display: none !important;
+  }
